@@ -6,9 +6,10 @@ static int centered = 0;                    /* -c option; centers dmenu on scree
 static int min_width = 1200;                    /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"DejaVu Sans Mono:size=14",
+	"JetBrains Mono:size=14",
 	"JoyPixels:size=18",
 	"Symbols Nerd Font:size=18"
+	/* "DejaVu Sans Mono:size=14", */
 	/* "monospace:size=10", */
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
