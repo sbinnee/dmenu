@@ -15,12 +15,20 @@ static const char *fonts[] = {
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#bbbbbb", "#222222" },
-	[SchemeSel] = { "#eeeeee", "#d79921" },
-	[SchemeSelHighlight] = { "#222222", "#d79921" },
-	[SchemeNormHighlight] = { "#d79921", "#222222" },
-	[SchemeOut] = { "#000000", "#00ffff" },
+	[SchemeNorm] = { "#ff79c6", "#282a36" },
+	[SchemeSel] = { "#282a36", "#ff79c6" },
+	[SchemeSelHighlight] = { "#f8f8f2", "#ff79c6" },
+	[SchemeNormHighlight] = { "#f8f8f2", "#282a36" },
+	[SchemeOut] = { "#000000", "#8be9fd" },
 };
+/* static const char *colors[SchemeLast][2] = { */
+/* 	/1*     fg         bg       *1/ */
+/* 	[SchemeNorm] = { "#bbbbbb", "#222222" }, */
+/* 	[SchemeSel] = { "#eeeeee", "#d79921" }, */
+/* 	[SchemeSelHighlight] = { "#222222", "#d79921" }, */
+/* 	[SchemeNormHighlight] = { "#d79921", "#222222" }, */
+/* 	[SchemeOut] = { "#000000", "#00ffff" }, */
+/* }; */
 // static const char *colors[SchemeLast][2] = {
 	// [>     fg         bg       <]
 	// [SchemeNorm] = { "#bbbbbb", "#222222" },
